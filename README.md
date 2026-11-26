@@ -6,7 +6,7 @@
 
 **Bounty:** [Sum up 26 November's world news in one image](https://make.fun/bounty/news-image-20261126) (make.fun, $100 in prizes, 50 places paid)
 
-## The image (v2)
+## The image (v3)
 
 One front page that sums up Thursday 26 November 2026:
 
@@ -40,6 +40,19 @@ headlines, dates, figures or quotes.
   Nikkei +1.6%), but the gold line ("falls 3% to a 12-month low") does not —
   gold plunged 3% intraday to its lowest since August 2025, then recovered.
 
+### What changed in v3
+
+- The three elements every champion of the 17–24 November editions
+  carries: a "THE DAY IN UTC" timeline strip under the masthead (6
+  verified UTC times), a "DATE CHECK" box (stories left out on purpose +
+  stories not yet happened), and a verification tag on all 35 stories
+  (OFFICIAL 14, REPORTED 11, CONFIRMED 4, CLAIM 4, FORECAST 2).
+- Factual correction, approved by the user: the Cairo tanker fire toll is
+  now "21 injured" (Egyptian health ministry's latest figure), not 15.
+- Layout tightened to fit the new elements in 1024×1024 (header, cards,
+  map and ALSO ON compacted); no story, illustration or map element was
+  removed.
+
 ## How it was built
 
 The image is typeset in HTML/SVG (`frontpage.html` in the agent session)
@@ -51,7 +64,7 @@ the finished image: it validates the PNG (magic bytes, ≤1 MiB,
 
 ## Files
 
-- `entry.png` — the image (1024×1024 PNG, 329,723 bytes)
+- `entry.png` — the image (1024×1024 PNG, 363,295 bytes)
 - `main.ts` — Node 22, standard library only; copies `entry.png` to the output
 - `LICENSE` — MIT
 
