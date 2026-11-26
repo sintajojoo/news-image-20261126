@@ -1,12 +1,15 @@
-// Entry for make.fun "news-image-20261126": Sum up 26 November's world news
-// in one image.
+// Entry v2 for make.fun "news-image-20261126": Sum up 26 November's world
+// news in one image.
 //
 // The image itself (entry.png) is "The World in One Page": a one-page
 // newspaper front page for Thursday 26 November 2026 — 35 stories across
 // 6 continents, a world map "WHERE IT HAPPENED" with numbered dots, and an
-// "ALSO ON" list. It was drawn by the build script in the agent session
-// (build-image.py) from a verified list of stories reported on that day,
-// using PIL only, so every word is typeset exactly and cannot garble.
+// "ALSO ON" list. v2 rebuilds the page in HTML/SVG (rendered with headless
+// Chromium) from the verified story list in news-list.md, adding an original
+// flat illustration to every featured card, swapping three ALSO ON stories
+// (#30 Qantas/ATSB, #31 Lula/Bradesco, #35 Fiji–Australia alliance), and
+// dropping the unverified MARKETS box from v1. Every word is typeset exactly
+// and cannot garble.
 //
 // This program's only job is to deliver that image: it reads entry.png,
 // checks that it really is a whole PNG within the competition's limits
