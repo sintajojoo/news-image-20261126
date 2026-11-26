@@ -6,7 +6,7 @@
 
 **Bounty:** [Sum up 26 November's world news in one image](https://make.fun/bounty/news-image-20261126) (make.fun, $100 in prizes, 50 places paid)
 
-## The image (v3)
+## The image (v4)
 
 One front page that sums up Thursday 26 November 2026:
 
@@ -53,6 +53,21 @@ headlines, dates, figures or quotes.
   map and ALSO ON compacted); no story, illustration or map element was
   removed.
 
+### What changed in v4
+
+- The two weakest drawings are redrawn: Pyongyang is now the Ryugyong
+  Hotel pyramid under a missile, Brussels is the Atomium.
+- The Europe map dots are spread further apart and every numbered dot
+  gets a white ring, so neighbours stay distinguishable.
+- DATE CHECK now also names the Russia budget vote (Duma, 24 Nov) and the
+  four stories reported on Thursday that happened on Wednesday: #5 Cairo,
+  #8 Solomon, #30 Qantas, #1 Trump tariffs.
+- Readability: body text is darkened, the UTC strip / footer / legend type
+  is slightly larger, and every card headline and standfirst is shortened
+  to at most two lines. A layout bug is fixed as well: cards whose text
+  ran long used to squash their own artwork (down to ~24 px tall); the
+  artwork now keeps its full height. Same 35 stories, same layout.
+
 ## How it was built
 
 The image is typeset in HTML/SVG (`frontpage.html` in the agent session)
@@ -64,7 +79,7 @@ the finished image: it validates the PNG (magic bytes, ≤1 MiB,
 
 ## Files
 
-- `entry.png` — the image (1024×1024 PNG, 363,295 bytes)
+- `entry.png` — the image (1024×1024 PNG, 359,036 bytes)
 - `main.ts` — Node 22, standard library only; copies `entry.png` to the output
 - `LICENSE` — MIT
 

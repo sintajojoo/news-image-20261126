@@ -1,16 +1,24 @@
-// Entry v3 for make.fun "news-image-20261126": Sum up 26 November's world
+// Entry v4 for make.fun "news-image-20261126": Sum up 26 November's world
 // news in one image.
 //
 // The image itself (entry.png) is "The World in One Page": a one-page
 // newspaper front page for Thursday 26 November 2026 — 35 stories across
 // 6 continents, a world map "WHERE IT HAPPENED" with numbered dots, and an
-// "ALSO ON" list. v3 adds the three elements the champions of the 17–24 Nov
-// editions all carry: a "THE DAY IN UTC" timeline strip, a "DATE CHECK" box
-// (stories left out on purpose + stories not yet happened), and a
-// verification tag on every story (OFFICIAL / CONFIRMED / REPORTED / CLAIM /
-// FORECAST). It also corrects the Cairo toll to 21 injured (Egyptian health
-// ministry's latest figure). The 35 stories themselves are unchanged from v2.
-// Every word is typeset exactly and cannot garble.
+// "ALSO ON" list. v4 is a polish pass on v3 (same 35 stories, same layout):
+// the three elements the champions of the 17–24 Nov editions all carry are
+// kept — a "THE DAY IN UTC" timeline strip, a "DATE CHECK" box (stories
+// left out on purpose + stories not yet happened), and a verification tag
+// on every story (OFFICIAL / CONFIRMED / REPORTED / CLAIM / FORECAST).
+// What v4 changes: (1) the two weakest drawings are redrawn — Pyongyang
+// is now the Ryugyong Hotel pyramid under a missile, Brussels is the
+// Atomium; (2) the Europe map dots are spread apart and given a white
+// ring so neighbours stay distinguishable; (3) DATE CHECK now also names
+// the Russia budget vote (Duma, 24 Nov) and the four stories reported on
+// Thursday that happened on Wednesday (#5 Cairo, #8 Solomon, #30 Qantas,
+// #1 Trump tariffs); (4) type is darkened and the card text is shortened
+// so no headline or standfirst ever runs past two lines, and the artwork
+// can no longer be squashed by the card layout. Every word is typeset
+// exactly and cannot garble.
 //
 // This program's only job is to deliver that image: it reads entry.png,
 // checks that it really is a whole PNG within the competition's limits
